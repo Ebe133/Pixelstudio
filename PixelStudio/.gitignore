@@ -1,0 +1,7 @@
+﻿// commit 8 content
+# .gitignore
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
