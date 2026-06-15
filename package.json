@@ -1,0 +1,13 @@
+﻿{
+  "name": "pixel-studio",
+  "version": "1.0.0",
+  "description": "A pixel art drawing application",
+  "main": "PixelStudio/main.js",
+  "scripts": {
+    "start": "open PixelStudio/index.html",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": ["pixel", "art", "drawing", "canvas"],
+  "author": "",
+  "license": "MIT"
+}
