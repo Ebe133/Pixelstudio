@@ -34,56 +34,23 @@
             </svg>
             <span>Gum</span>
           </button>
-          <button class="tool-btn" id="btn-fill" title="Emmer">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="m19 11-8-8-8.5 8.5a5.5 5.5 0 0 0 7.78 7.78L19 11Z"/><path d="m3.5 11.5 10 10"/><path d="M20.5 16.5c0 2-1.5 3.5-3 3.5s-3-1.5-3-3.5c0-1.5 3-6 3-6s3 4.5 3 6Z"/>
-            </svg>
-            <span>Emmer</span>
-          </button>
         </div>
 
         <div class="tool-section">
           <label class="color-label" for="colorPicker">Kleur</label>
           <input type="color" id="colorPicker" value="#e63946" />
 
-          <div class="palette">
-            <button class="swatch" style="background:#e63946" data-color="#e63946"></button>
-            <button class="swatch" style="background:#f4a261" data-color="#f4a261"></button>
-            <button class="swatch" style="background:#2a9d8f" data-color="#2a9d8f"></button>
-            <button class="swatch" style="background:#264653" data-color="#264653"></button>
-            <button class="swatch" style="background:#e9c46a" data-color="#e9c46a"></button>
-            <button class="swatch" style="background:#6a0572" data-color="#6a0572"></button>
-            <button class="swatch" style="background:#023e8a" data-color="#023e8a"></button>
-            <button class="swatch" style="background:#ffffff" data-color="#ffffff"></button>
-            <button class="swatch" style="background:#1a1a2e" data-color="#1a1a2e"></button>
-          </div>
-        </div>
-
-        <div class="tool-section">
-          <label class="size-label" for="gridSize">Raster</label>
-          <select id="gridSize">
-            <option value="8">8 × 8</option>
-            <option value="16" selected>16 × 16</option>
-            <option value="32">32 × 32</option>
-          </select>
         </div>
 
         <div class="tool-section">
           <button class="action-btn" id="btn-clear">Wis alles</button>
-          <button class="action-btn" id="btn-export">Export PNG</button>
         </div>
 
-        <div class="tool-section">
-          <label class="size-label">
-            <input type="checkbox" id="toggleGrid" checked /> Toon raster
-          </label>
-        </div>
       </aside>
 
       <!-- Canvas -->
       <main class="canvas-wrap">
         <canvas id="pixelCanvas"></canvas>
-        <div class="coords" id="coords">–</div>
       </main>
 
     </div>

@@ -150,39 +150,6 @@ header {
   padding: 2px;
 }
 
-.palette {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 4px;
-  margin-top: 2px;
-}
-
-.swatch {
-  width: 100%;
-  aspect-ratio: 1;
-  border-radius: 3px;
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: transform 0.1s, border-color 0.1s;
-}
-
-.swatch:hover { transform: scale(1.15); }
-.swatch.active { border-color: #fff; }
-
-/* GRID SIZE SELECT */
-#gridSize {
-  width: 100%;
-  padding: 7px 8px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  color: var(--text);
-  font-size: 13px;
-  cursor: pointer;
-}
-
-#gridSize:focus { outline: none; border-color: var(--accent); }
-
 /* ACTION BUTTONS */
 .action-btn {
   width: 100%;
@@ -200,11 +167,6 @@ header {
 .action-btn:hover {
   background: var(--border);
   border-color: var(--text-dim);
-}
-
-#toggleGrid {
-  cursor: pointer;
-  accent-color: var(--accent);
 }
 
 /* ===== CANVAS AREA ===== */
@@ -234,19 +196,6 @@ header {
   background-size: 16px 16px;
   background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
   background-color: #15152a;
-}
-
-.coords {
-  position: absolute;
-  bottom: 12px;
-  right: 16px;
-  font-size: 11px;
-  font-family: var(--font-pixel);
-  color: var(--text-dim);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  padding: 3px 8px;
-  border-radius: 4px;
 }
 
 /* ===== SCROLLBAR ===== */
